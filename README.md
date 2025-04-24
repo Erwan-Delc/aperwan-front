@@ -67,13 +67,6 @@ aperwan-front/
 
 ---
 
-## 🤝 Contribuer
-
-Les contributions sont les bienvenues !
-Fork, clone et propose une PR 🍷
-
----
-
 ## 🧑‍💻 Auteur
 
 **Erwan Delcroix**

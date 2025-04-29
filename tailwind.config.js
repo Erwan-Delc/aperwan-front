@@ -5,7 +5,11 @@ export default {
     "./src/**/*.{js,jsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        'playfair-sc': ['"Playfair Display SC"', 'serif'],
+      },
+    },
   },
   plugins: [],
 }

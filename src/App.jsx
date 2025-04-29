@@ -1,13 +1,15 @@
-import { useState } from 'react'
-import './App.css'
+// src/App.jsx
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom"
+import Home from "./pages/Home"
 
 function App() {
   return (
-    <div>
-      <h1>Bienvenue sur Aper'wan 🍷🧀</h1>
-      <p>Le projet commence ici !</p>
-    </div>
-  );
+    <Router>
+      <Routes>
+        <Route path="/" element={<Home />} />
+      </Routes>
+    </Router>
+  )
 }
 
-export default App;
+export default App

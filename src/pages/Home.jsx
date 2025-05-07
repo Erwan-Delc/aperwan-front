@@ -38,7 +38,7 @@ export default function Home() {
                 </section>
 
 
-                <section className="w-full flex justify-center mt-1 bg-[#F9F3E4]">
+                <section className="w-full flex justify-center mt-1 bg-[#F9F3E4] mb-12">
                     <div className="w-[1200px] max-w-full bg-[#8BA48D] text-white rounded-xl p-8 flex flex-col md:flex-row gap-6 shadow">
 
                         {/* Texte à gauche */}
